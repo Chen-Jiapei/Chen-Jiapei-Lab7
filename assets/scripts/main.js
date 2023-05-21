@@ -51,10 +51,10 @@ function initializeServiceWorker() {
       try {
         const registration = await navigator.serviceWorker.register("/sw.js");
         if (registration.active) {
-          console.log("Registration is successful");
+          console.log('Registration is successful');
         }
       } catch (error) {
-        console.error("Registration failed with ${error}");
+        console.error('Registration failed with ${error}');
       }
     });
   }
