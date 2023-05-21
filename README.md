@@ -2,4 +2,4 @@
 
 Jiapei Chen
 
-https://chen-jiapei.github.io/Jiapei-Chen-Lab7/
+https://chen-jiapei.github.io/Chen-Jiapei-Lab7/
