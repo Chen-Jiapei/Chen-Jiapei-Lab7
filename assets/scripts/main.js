@@ -49,7 +49,7 @@ function initializeServiceWorker() {
   if ("serviceWorker" in navigator) {
     window.addEventListener("load", (event) => {
       try {
-        const registration = navigator.serviceWorker.register("/Jiapei-Chen-Lab7/sw.js");
+        const registration = navigator.serviceWorker.register("/Chen-Jiapei-Lab7/sw.js");
         if (registration.active) {
           console.log('Registration is successful');
         }
