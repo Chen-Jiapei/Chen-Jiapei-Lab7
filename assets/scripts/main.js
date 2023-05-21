@@ -96,7 +96,7 @@ async function getRecipes() {
   //            take two parameters - resolve, and reject. These are functions
   //            you can call to either resolve the Promise or Reject it.
 
-  const getNetworkRecipe = new Promise(async (resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     for (let i = 0; i < RECIPE_URLS.length; i++) {
       try {
         let fetchResponse = await fetch(RECIPE_URLS[i]);
@@ -115,8 +115,6 @@ async function getRecipes() {
       }
     }
   });
-
-  return networkRecipes;
  
   /**************************/
   // A4-A11 will all be *inside* the callback function we passed to the Promise
