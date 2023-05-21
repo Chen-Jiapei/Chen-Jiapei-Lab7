@@ -116,7 +116,7 @@ async function getRecipes() {
     }
   });
 
-  return getNetworkRecipe;
+  return networkRecipes;
  
   /**************************/
   // A4-A11 will all be *inside* the callback function we passed to the Promise
